@@ -1,0 +1,30 @@
+User accounts  
+     - login 
+     - sign up
+     - Auth
+     - profile
+     - edit profile
+     - my products
+
+
+
+add ad : 
+    - title
+    - category
+    - description 
+    - images
+    - ad owner  
+
+search categories
+
+
+product:
+    - product name
+    - product place : owner place
+    - brand
+    - ad type
+    - condition
+    - pay
+    - image
+    - descritpion
+    - category 

@@ -1,0 +1,30 @@
+detail
+
+
+
+<a href="{% url 'blog:post_update' post.id %}">edit post</a>
+
+
+<h3>{{post.title}}</h3>
+
+
+<p>{{post.content}}</p>
+
+
+
+
+<hr>
+
+{% for comment in all_comments %}
+  <p>{{comment.body}} - {{comment.user}}   - {{comment.created_at}}</p>
+{% endfor %}
+
+
+<hr>
+
+<p> add new comment</p>
+<form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit"> add new comment </button>
+</form>
